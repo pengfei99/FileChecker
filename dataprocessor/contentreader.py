@@ -1,5 +1,5 @@
 
-def read_txt_file(file_path):
-    with open(file_path, encoding='utf8') as f:
+def read_txt_file(file_path,encoding='utf8'):
+    with open(file_path, encoding=encoding) as f:
         for line in f:
-            print(line.strip())
+            yield line.strip()
