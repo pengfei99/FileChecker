@@ -1,4 +1,4 @@
-from directorywalker.directorywalker import list_files
+from dataprocessor.directorywalker import list_files
 
 
 def test_list_files():
